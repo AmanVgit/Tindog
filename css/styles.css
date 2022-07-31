@@ -152,7 +152,7 @@ h3 {
     }
 }
 
-@media (max-width: 444px) {
+@media (max-width: 393px) {
     .headline {
         font-family: 'Montserrat';
         font-size: 3rem;
