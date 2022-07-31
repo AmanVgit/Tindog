@@ -13,14 +13,7 @@
     line-height: 1.5;
     font-weight: 900;
 }
-@media (max-width:444px) {
-    .headline {
-        font-family: 'Montserrat';
-        font-size: 3rem;
-        line-height: 1.5;
-        font-weight: 900;
-    }
-}
+
 
 .container-fluid {
     padding: 3% 15% 7%;
@@ -156,6 +149,15 @@ h3 {
     .iphoneimg {
         position: static;
         transform: rotate(0);
+    }
+}
+
+@media (max-width: 444px) {
+    .headline {
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
     }
 }
 
