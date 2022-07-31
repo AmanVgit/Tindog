@@ -14,7 +14,6 @@
     font-weight: 900;
 }
 
-
 .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -109,6 +108,16 @@ h3 {
     line-height: 1.5;
 }
 
+@media (max-width:444px) {
+
+    .testimonialh2 {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
 .testimonial-image {
     border-radius: 100%;
     width: 20%;
@@ -118,6 +127,8 @@ h3 {
 .carousel-item {
     padding: 7% 15%;
 }
+
+/* press */
 
 #press {
     background-color: #ef8172;
@@ -152,7 +163,7 @@ h3 {
     }
 }
 
-@media (max-width: 393px) {
+@media (max-width:444px) {
     .headline {
         font-family: 'Montserrat';
         font-size: 3rem;
@@ -177,6 +188,23 @@ h3 {
     font-weight: bold;
     line-height: 1.5;
     font-size: 3rem;
+}
+
+@media (max-width: 444px) {
+    .ctatxt {
+        color: #fff;
+        width: 60%;
+        margin: auto;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+
+    .fbtn {
+        margin: 5% 3% 3% 0;
+
+    }
 }
 
 .fbtn {
